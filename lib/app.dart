@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lychee/screens/home_screen.dart';
+import 'package:lychee/screens/root_pager.dart';
 
 class LycheeApp extends StatelessWidget {
   const LycheeApp({super.key});
@@ -17,7 +17,7 @@ class LycheeApp extends StatelessWidget {
         ),
         scaffoldBackgroundColor: const Color(0xFFFFF8F9),
       ),
-      home: const HomeScreen(),
+      home: const RootPager(),
     );
   }
 }
