@@ -21,7 +21,7 @@ class _RootPagerState extends State<RootPager> {
       body: PageView(
         controller: _controller,
         physics: const BouncingScrollPhysics(),
-        children: const [SearchScreen(), HomeScreen(), UploadScreen()],
+        children: [SearchScreen(), HomeScreen(), UploadScreen()],
       ),
     );
   }
